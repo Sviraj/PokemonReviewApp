@@ -26,5 +26,16 @@ namespace PokemonReviewApp.Controllers
 
             return Ok(vehicles);
         }
+        [HttpGet]
+        [Route("GetAllVehicles")]
+        public IActionResult GetAllVehicles()
+        {
+            var vehicles = vehicleRepository.GetVehicles();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(vehicles);
+        }
     }
 }
