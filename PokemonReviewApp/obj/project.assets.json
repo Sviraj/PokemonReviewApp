@@ -3790,11 +3790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hadapu App\\DotNet Project\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectUniqueName": "D:\\Hadapu App\\0.PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "projectName": "PokemonReviewApp",
-      "projectPath": "D:\\Hadapu App\\DotNet Project\\PokemonReviewApp\\PokemonReviewApp.csproj",
+      "projectPath": "D:\\Hadapu App\\0.PokemonReviewApp\\PokemonReviewApp\\PokemonReviewApp.csproj",
       "packagesPath": "C:\\Users\\Sachin\\.nuget\\packages\\",
-      "outputPath": "D:\\Hadapu App\\DotNet Project\\PokemonReviewApp\\obj\\",
+      "outputPath": "D:\\Hadapu App\\0.PokemonReviewApp\\PokemonReviewApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sachin\\AppData\\Roaming\\NuGet\\NuGet.Config",
