@@ -24,11 +24,7 @@ const Login = () => {
         navigate('/loader');
     } 
     else {
-      if (response.status == 422) {
         alert.errors("Invalid Password");
-      } else {
-        alert.errors("Error Occur");
-      }
     }
   }
   return (

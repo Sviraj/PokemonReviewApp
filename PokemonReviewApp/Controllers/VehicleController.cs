@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PokemonReviewApp.Data;
 using PokemonReviewApp.Interfaces;
 using PokemonReviewApp.Models;
 
@@ -9,10 +11,13 @@ namespace PokemonReviewApp.Controllers
     public class VehicleController : Controller
     {
         private readonly IVehicleRepository vehicleRepository;
+        private readonly DataContext _context;
 
-        public VehicleController(IVehicleRepository vehicleRepository)
+        public VehicleController(IVehicleRepository vehicleRepository,DataContext context)
         {
             this.vehicleRepository = vehicleRepository;
+            _context = context;
+
         }
 
         [HttpGet]
@@ -26,6 +31,7 @@ namespace PokemonReviewApp.Controllers
 
             return Ok(vehicles);
         }
+
         [HttpGet]
         [Route("GetAllVehicles")]
         public IActionResult GetAllVehicles()
@@ -36,6 +42,14 @@ namespace PokemonReviewApp.Controllers
                 return BadRequest(ModelState);
 
             return Ok(vehicles);
+        }
+
+        [HttpGet]
+        [Route("GetAllVehicleUsingSp")]
+        public IActionResult GetVehiclesBySp()
+        {
+            var result = _context.Vehicles.FromSqlRaw("[Administration].[GetAllVehicles]");
+            return Ok(result);
         }
     }
 }
