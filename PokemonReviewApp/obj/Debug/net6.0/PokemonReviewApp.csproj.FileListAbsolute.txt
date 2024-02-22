@@ -265,3 +265,4 @@ D:\Hadapu App\0.PokemonReviewApp\PokemonReviewApp\obj\Debug\net6.0\refint\Pokemo
 D:\Hadapu App\0.PokemonReviewApp\PokemonReviewApp\obj\Debug\net6.0\PokemonReviewApp.pdb
 D:\Hadapu App\0.PokemonReviewApp\PokemonReviewApp\obj\Debug\net6.0\PokemonReviewApp.genruntimeconfig.cache
 D:\Hadapu App\0.PokemonReviewApp\PokemonReviewApp\obj\Debug\net6.0\ref\PokemonReviewApp.dll
+D:\Hadapu App\0.PokemonReviewApp\PokemonReviewApp\obj\Debug\net6.0\PokemonReviewApp.sourcelink.json
