@@ -37,8 +37,8 @@ const Login = () => {
   return (
     <Box>
       <Container>
-        <Card sx={{ display: 'flex' }}>
-          <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+        <Card sx={{ display: 'flex', maxWidth: 500,  position: 'relative', top: '50px', left: '20px', zIndex: 1,  backgroundColor: '#f0f0f0' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', boxShadow: '2px 2px 5px rgba(0, 0, 0, 25)', boxShadowColor: 'rgba(0, 0, 0, 67)' }}>
           <CardContent sx={{ flex: '1 0 auto' }}>
             <div>
               <Typography variant="body2" sx={{ mb: 5 }}>

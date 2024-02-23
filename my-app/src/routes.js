@@ -3,7 +3,7 @@ import { useRoutes } from "react-router-dom";
 import GangAddEdit from "./pages/GangAddEdit";
 import GangListing from "./pages/GangListing";
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Login from "./pages/Login/Login";
 import Registration from "./pages/Registration";
 import Loader from "./pages/Loader";
 
