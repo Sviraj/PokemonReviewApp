@@ -4,7 +4,7 @@ import GangAddEdit from "./pages/GangAddEdit";
 import GangListing from "./pages/GangListing";
 import Home from "./pages/Home";
 import Login from "./pages/Login/Login";
-import Registration from "./pages/Registration";
+import Registration from "./pages/Registration/Registration";
 import Loader from "./pages/Loader";
 
 export default function Router(){
